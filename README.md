@@ -1,2 +1,2 @@
 # Projetos
- Meus projetos pessoais e profissionais
+ Meus projetos pessoais e profissionais.
