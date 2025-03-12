@@ -39,3 +39,8 @@ print(produto_caro.to_string())
 produto_barato = vendas_df.loc[vendas_df['preço'].idxmin()]
 print('Produto mais barato:')
 print(produto_barato.to_string())
+
+vendas_df.to_csv('vendas_csv', index=False)
+vendas_csv = pd.read_csv('vendas_csv')
+print('Ler o arquivo transformado em csv salvo:')
+print(vendas_csv.head())

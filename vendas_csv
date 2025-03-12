@@ -1,0 +1,5 @@
+produto,preço,Quantidade,Categoria,Total de vendas
+camiseta,50.0,10,Vestuario,500
+tenis,200.0,5,Calçados,1000
+calça,120.0,8,Vestuario,960
+boné,40.0,15,Acessorios,600
