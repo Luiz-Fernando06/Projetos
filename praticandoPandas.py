@@ -31,3 +31,11 @@ print(ordenando_os_precos_em_decrescente.to_string(index=False))
 valor_total_de_todos_produtos = vendas_df['Total de vendas'].sum()
 print('Valor total de todos os produtos somados: ')
 print(valor_total_de_todos_produtos)
+
+produto_caro = vendas_df.loc[vendas_df['preço'].idxmax()]
+print('Produto mais caro:')
+print(produto_caro.to_string())
+
+produto_barato = vendas_df.loc[vendas_df['preço'].idxmin()]
+print('Produto mais barato:')
+print(produto_barato.to_string())
